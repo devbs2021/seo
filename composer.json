@@ -1,0 +1,31 @@
+{
+    "name": "devbshrestha/seo",
+    "description": "Simple library for seo",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bharat Shrestha",
+            "email": "bharatstha97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DevbShrestha\\Seo\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevbShrestha\\Seo\\SeoServiceProvider"
+            ],
+            "aliases": {
+                "Seo": "DevbShrestha\\Seo\\Facades\\SeoFacade"
+            }
+        }
+    }
+}
