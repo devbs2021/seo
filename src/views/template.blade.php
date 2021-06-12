@@ -1,6 +1,6 @@
 <title>{{ $title }}</title>
-<meta name='description' itemprop='description' content='{{ $description }}' />
-<meta name='keywords' content='{{ $keywords }}' />
+<meta name="description" itemprop="description" content="{{ $description }}" />
+<meta name="keywords" content="{{ $keywords }}" />
 
 <meta property="og:description" content="{{ $description }}" />
 <meta property="og:title" content="{{ $title }}" />
