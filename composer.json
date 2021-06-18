@@ -3,6 +3,7 @@
     "description": "Simple library for seo",
     "license": "MIT",
     "type": "library",
+    "version":"1.0",
     "authors": [
         {
             "name": "Bharat Shrestha",
